@@ -2,5 +2,22 @@
 "name": "Basic Chrome extension",
 "description": "Make small Talk Great Again!",
 "version": "1.0",
-"manifest_version": 3
+"manifest_version": 3,
+"background":{
+    "service_worker":"script.js"
+    
+},
+"options_page": "options.html",
+"permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "/images/icons8-star-48.png",
+      "96": "/images/icons8-star-96.png"
+    }
+  },
+    "icons": {
+   "48": "/images/icons8-star-48.png",
+    "96": "/images/icons8-star-96.png"
+  }
 }

@@ -1,0 +1,6 @@
+{ 
+"name": "Basic Chrome extension",
+"description": "Make small Talk Great Again!",
+"version": "1.0",
+"manifest_version": 3
+}
